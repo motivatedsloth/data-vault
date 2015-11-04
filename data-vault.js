@@ -1,4 +1,4 @@
-;(function(app){
+;(function(window){
 
     /**
      * our data storage model
@@ -154,5 +154,10 @@
 
     }//vault
 
-    app.vault = vault;
-}(bm));
+    if ( typeof define === "function" && define.amd ) {
+    		define( function() { return vault; } );
+  	}else{
+      console.log("global");
+      window.vault = vault;
+    }
+}(window));
