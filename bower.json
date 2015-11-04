@@ -1,0 +1,22 @@
+{
+  "name": "data-vault",
+  "main": "data-vault.js",
+  "homepage": "https://github.com/motivatedsloth/data-vault",
+  "description": "Added methods for localStorage and sessionStorage",
+  "moduleType": [],
+  "keywords": [
+    "Key/Value",
+    "storage"
+  ],
+  "authors": [
+    "Alan Buss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
