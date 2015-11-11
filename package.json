@@ -1,0 +1,5 @@
+{
+  "name": "data-vault",
+  "version": "0.0.1",
+  "description": "Methods to work with localStorage or sessionStorage",
+}
